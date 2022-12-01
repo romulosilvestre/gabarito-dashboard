@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FyPdOFTC++eiyf09di6Gic6gnnUHXtKliACv10qaiWkMr9vTodCVRMaEZ+EchESQJVbtZfRkkp6V8MkCdsh3TA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\romul\\Desktop\\DashBoard\\DashBoard.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\romul\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
