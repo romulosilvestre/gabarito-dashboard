@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -766880519,
-        "Kind": "Components.Component",
-        "Name": "DashBoard.Pages.AdicionarUsuario",
-        "AssemblyName": "DashBoard",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AdicionarUsuario"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DashBoard.Pages.AdicionarUsuario"
-        }
-      },
-      {
-        "HashCode": -992240486,
-        "Kind": "Components.Component",
-        "Name": "DashBoard.Pages.AdicionarUsuario",
-        "AssemblyName": "DashBoard",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DashBoard.Pages.AdicionarUsuario"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DashBoard.Pages.AdicionarUsuario",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -2107760750,
         "Kind": "Components.Component",
         "Name": "DashBoard.Pages.Counter",
@@ -140,6 +107,72 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DashBoard.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -853985681,
+        "Kind": "Components.Component",
+        "Name": "DashBoard.Pages.Autentica",
+        "AssemblyName": "DashBoard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Autentica"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DashBoard.Pages.Autentica"
+        }
+      },
+      {
+        "HashCode": -869394942,
+        "Kind": "Components.Component",
+        "Name": "DashBoard.Pages.Autentica",
+        "AssemblyName": "DashBoard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DashBoard.Pages.Autentica"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DashBoard.Pages.Autentica",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -766880519,
+        "Kind": "Components.Component",
+        "Name": "DashBoard.Pages.AdicionarUsuario",
+        "AssemblyName": "DashBoard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AdicionarUsuario"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DashBoard.Pages.AdicionarUsuario"
+        }
+      },
+      {
+        "HashCode": -992240486,
+        "Kind": "Components.Component",
+        "Name": "DashBoard.Pages.AdicionarUsuario",
+        "AssemblyName": "DashBoard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DashBoard.Pages.AdicionarUsuario"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DashBoard.Pages.AdicionarUsuario",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -263,6 +296,39 @@
         }
       },
       {
+        "HashCode": 1885865756,
+        "Kind": "Components.Component",
+        "Name": "DashBoard.Shared.NavMenu",
+        "AssemblyName": "DashBoard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DashBoard.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1684399944,
+        "Kind": "Components.Component",
+        "Name": "DashBoard.Shared.NavMenu",
+        "AssemblyName": "DashBoard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DashBoard.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DashBoard.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1089707440,
         "Kind": "Components.Component",
         "Name": "DashBoard.Shared.MainLayout",
@@ -355,39 +421,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "DashBoard.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1885865756,
-        "Kind": "Components.Component",
-        "Name": "DashBoard.Shared.NavMenu",
-        "AssemblyName": "DashBoard",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DashBoard.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -1684399944,
-        "Kind": "Components.Component",
-        "Name": "DashBoard.Shared.NavMenu",
-        "AssemblyName": "DashBoard",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DashBoard.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DashBoard.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

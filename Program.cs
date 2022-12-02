@@ -11,7 +11,7 @@ builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddScoped(
    
      s=>{
-        return new HttpClient{BaseAddress = new Uri("http://nayara-001-site1.htempurl.com")};
+        return new HttpClient{BaseAddress = new Uri("http://danielcsilva-001-site1.ctempurl.com")};
      }
 
 

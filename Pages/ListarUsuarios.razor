@@ -4,10 +4,10 @@
 @inject HttpClient client
 
 
-<button type="button" @onclick="PegarUsuarios" class="btn btn-link" style="margin-top:35px;">Listar Usuários</button>
+<button type="button" @onclick="PegarUsuarios" class="btn btn-link" >Listar Usuários</button>
 
 
-<div class="col-5" style="margin-top:15px">
+<div class="col-5">
   
     <table class="table">
       
@@ -33,7 +33,7 @@
 @code{    
     List<Login>? Logins=new List<Login>();
     private async void PegarUsuarios(){
-        var apiName = "http://nayara-001-site1.htempurl.com/api/login"; //aqui é o endpoint.
+        var apiName = "http://danielcsilva-001-site1.ctempurl.com/api/usuarios"; //aqui é o endpoint.
         var httpResponse = await client.GetAsync(apiName);
         if(httpResponse.IsSuccessStatusCode){       
             var apiConteudo = await httpResponse.Content.ReadAsStringAsync();
