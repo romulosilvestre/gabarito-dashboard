@@ -27,3 +27,5 @@ C:\Users\romul\Desktop\DashBoard\obj\Debug\net6.0\DashBoard.genruntimeconfig.cac
 C:\Users\romul\Desktop\DashBoard\obj\Debug\net6.0\ref\DashBoard.dll
 C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\romul\Desktop\DashBoard\obj\Debug\net6.0\DashBoard.csproj.CopyComplete
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\Refit.dll
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\Refit.HttpClientFactory.dll

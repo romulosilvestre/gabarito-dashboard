@@ -8,13 +8,13 @@
 
 
 <div class="col-5">
-  
+  @if(mostrar){
     <table class="table">
       
         <thead>
             <tr>
                 <th scope="col">Usuário</th>
-                <th scope="col">Data de Criaçao</th>
+                <th scope="col">Senha</th>
             </tr>
         </thead>
         <tbody>
@@ -22,23 +22,28 @@
             {
                 <tr>
                   <td>@item.Usuario</td>
-                  <td>@item.DataCriacao</td>
+                   <td>@item.Senha</td>
+            
+                  
                 </tr>                
             }
            
         </tbody>
     </table>
+  }
 </div>
 
 @code{    
     List<Login>? Logins=new List<Login>();
+    private bool mostrar=false;
     private async void PegarUsuarios(){
-        var apiName = "http://danielcsilva-001-site1.ctempurl.com/api/usuarios"; //aqui é o endpoint.
+        var apiName = "http://barbertip.com.br/api/usuarios";
         var httpResponse = await client.GetAsync(apiName);
         if(httpResponse.IsSuccessStatusCode){       
             var apiConteudo = await httpResponse.Content.ReadAsStringAsync();
             //Agora é a famosa Desserialização
             Logins = JsonConvert.DeserializeObject<List<Login>>(apiConteudo);
+            mostrar=true;
             StateHasChanged();
         }
 
