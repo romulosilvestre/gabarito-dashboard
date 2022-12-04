@@ -6,6 +6,5 @@ Foram utilizadas as seguintes tecnologias:
 NewSoft.JSON v6
 Blazor
 
-Para realizar o download do projeto:
-git clone  https://github.com/romulosilvestre/senai-blazor-get.git
+
 
