@@ -1,0 +1,50 @@
+@page "/adicionarfuncionario"
+@inject HttpClient client
+@using Data
+@using Newtonsoft.Json;
+
+Usuario <input type="text" @bind="InputNome">
+Telefone <input type="number" @bind="InputTelefone">
+Email <input type="text" @bind="InputEmail">
+Cpf <input type="text" @bind="InputCpf">
+Data de Nascimento <input type="date" @bind="InputDataNascimento">
+Função <input type="text" @bind="InputFuncao">
+
+
+<button @onclick="CadastrarUsuario" >Cadastrar</button>
+
+@mensagem
+
+@code{
+    private string? mensagem;
+    private string? InputNome;
+    private string? InputTelefone;
+    private string? InputEmail;
+    private string? InputCpf;
+    private DateTime InputDataNascimento;
+    private string? InputFuncao;
+  
+    Funcionario funcionario =new Funcionario();
+    
+    private async Task CadastrarUsuario(){
+        //atribuindo os valores no objeto
+        funcionario.Nome = InputNome;
+        funcionario.Telefone = InputTelefone;
+        funcionario.Email = InputEmail;
+        funcionario.Cpf = InputCpf;
+        funcionario.DataNascimento = InputDataNascimento;
+
+        var response = await client
+                          .PostAsJsonAsync<Funcionario>("http://www.barbertip.com.br/api/funcionarios", 
+                           funcionario);
+        //endereço da API
+        /*   var apiName = "http://www.barbertip.com.br/api/funcionarios";
+        //agora é o inverso: vamos serializar
+        var postData = JsonConvert.SerializeObject(funcionario);
+        //vamos fazer o POST (inserir no endpoint da API e consequentemente no banco de dados)
+        var response = await client.PostAsync(apiName, new StringContent(postData));*/
+      
+        mensagem = "método acionado com sucesso";
+    }
+}
+

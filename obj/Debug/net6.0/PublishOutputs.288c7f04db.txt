@@ -6,5 +6,7 @@ C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\DashBoard.deps.json
 C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\DashBoard.runtimeconfig.json
 C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\DashBoard.pdb
 C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\Newtonsoft.Json.dll
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\Radzen.Blazor.dll
 C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\Refit.dll
 C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\Refit.HttpClientFactory.dll
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\System.Linq.Dynamic.Core.dll

@@ -29,3 +29,5 @@ C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\romul\Desktop\DashBoard\obj\Debug\net6.0\DashBoard.csproj.CopyComplete
 C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\Refit.dll
 C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\Refit.HttpClientFactory.dll
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\Radzen.Blazor.dll
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll

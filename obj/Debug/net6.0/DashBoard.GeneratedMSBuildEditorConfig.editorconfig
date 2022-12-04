@@ -20,8 +20,8 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/romul/Desktop/DashBoard/Pages/AdicionarUsuario.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRpY2lvbmFyVXN1YXJpby5yYXpvcg==
+[C:/Users/romul/Desktop/DashBoard/Pages/AdicionarFuncionario.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRpY2lvbmFyRnVuY2lvbmFyaW8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/romul/Desktop/DashBoard/Pages/Autentica.razor]
@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/romul/Desktop/DashBoard/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romul/Desktop/DashBoard/Pages/ListarClientes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFyQ2xpZW50ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/romul/Desktop/DashBoard/Pages/ListarFuncionarios.razor]

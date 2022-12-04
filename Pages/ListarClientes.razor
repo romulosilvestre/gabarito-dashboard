@@ -1,0 +1,98 @@
+@page "/listarclientes"
+@using Data
+@using Newtonsoft.Json
+@inject HttpClient client
+
+
+
+<div class="row">
+    <div class="col-2">
+        <div class="card text-white bg-danger" style="max-width:12rem;">
+            <div class="card-header">Total Clientes</div>
+            <div class="card-body">
+                <h6>
+                    <p class="card-text">@Clientes.Count()</p>
+                </h6>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-2">
+        <div class="card text-dark bg-warning" style="max-width: 12rem;">
+            <div class="card-header">DDD-Brasília</div>
+            <div class="card-body">
+                <h6>
+                    <p class="card-text">@Clientes.Count(c=>c.Telefone.StartsWith("61"))</p>
+                </h6>
+            </div>
+        </div>
+    </div>
+
+   <div class="col-2">
+    <div class="card text-white bg-secondary" style="max-width: 12rem;">
+        <div class="card-header">Outros DDDs</div>
+        <div class="card-body">
+            <h6>
+                <p class="card-text">@Clientes.Count(c=>!c.Telefone.StartsWith("61"))</p>
+            </h6>
+        </div>
+    </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+<button type="button" @onclick="PegarClientes" class="btn btn-link">Listar Clientes</button>
+
+
+<div class="col-5">
+    @if (mostrar)
+    {
+        <table class="table">
+
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Telefone</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Clientes)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Nome</td>
+                        <td>@item.Telefone</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+@code {
+    List<Cliente>? Clientes = new List<Cliente>();
+    private bool mostrar = false;
+    private async Task PegarClientes()
+    {
+        var apiName = "http://barbertip.com.br/api/clientes";
+        var httpResponse = await client.GetAsync(apiName);
+        if (httpResponse.IsSuccessStatusCode)
+        {
+            var apiConteudo = await httpResponse.Content.ReadAsStringAsync();
+            //Agora é a famosa Desserialização
+            Clientes = JsonConvert.DeserializeObject<List<Cliente>>(apiConteudo);
+            mostrar = true;
+            StateHasChanged();
+        }
+
+    }
+
+}
+
