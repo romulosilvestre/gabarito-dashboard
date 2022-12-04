@@ -45,39 +45,6 @@
         }
       },
       {
-        "HashCode": -1799678648,
-        "Kind": "Components.Component",
-        "Name": "DashBoard.Pages.Autentica",
-        "AssemblyName": "DashBoard",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Autentica"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DashBoard.Pages.Autentica"
-        }
-      },
-      {
-        "HashCode": -1200475993,
-        "Kind": "Components.Component",
-        "Name": "DashBoard.Pages.Autentica",
-        "AssemblyName": "DashBoard",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DashBoard.Pages.Autentica"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DashBoard.Pages.Autentica",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1449545533,
         "Kind": "Components.Component",
         "Name": "DashBoard.Pages.Counter",
@@ -144,6 +111,72 @@
         }
       },
       {
+        "HashCode": -401424531,
+        "Kind": "Components.Component",
+        "Name": "DashBoard.Pages.ListarUsuarios",
+        "AssemblyName": "DashBoard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ListarUsuarios"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DashBoard.Pages.ListarUsuarios"
+        }
+      },
+      {
+        "HashCode": 1599552231,
+        "Kind": "Components.Component",
+        "Name": "DashBoard.Pages.ListarUsuarios",
+        "AssemblyName": "DashBoard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DashBoard.Pages.ListarUsuarios"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DashBoard.Pages.ListarUsuarios",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -408531306,
+        "Kind": "Components.Component",
+        "Name": "DashBoard.Pages.ListarFuncionarios",
+        "AssemblyName": "DashBoard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ListarFuncionarios"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DashBoard.Pages.ListarFuncionarios"
+        }
+      },
+      {
+        "HashCode": 1081748708,
+        "Kind": "Components.Component",
+        "Name": "DashBoard.Pages.ListarFuncionarios",
+        "AssemblyName": "DashBoard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DashBoard.Pages.ListarFuncionarios"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DashBoard.Pages.ListarFuncionarios",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1930407801,
         "Kind": "Components.Component",
         "Name": "DashBoard.Pages.Index",
@@ -177,35 +210,35 @@
         }
       },
       {
-        "HashCode": -401424531,
+        "HashCode": -1799678648,
         "Kind": "Components.Component",
-        "Name": "DashBoard.Pages.ListarUsuarios",
+        "Name": "DashBoard.Pages.Autentica",
         "AssemblyName": "DashBoard",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ListarUsuarios"
+            "TagName": "Autentica"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DashBoard.Pages.ListarUsuarios"
+          "Common.TypeName": "DashBoard.Pages.Autentica"
         }
       },
       {
-        "HashCode": 1599552231,
+        "HashCode": -1200475993,
         "Kind": "Components.Component",
-        "Name": "DashBoard.Pages.ListarUsuarios",
+        "Name": "DashBoard.Pages.Autentica",
         "AssemblyName": "DashBoard",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "DashBoard.Pages.ListarUsuarios"
+            "TagName": "DashBoard.Pages.Autentica"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DashBoard.Pages.ListarUsuarios",
+          "Common.TypeName": "DashBoard.Pages.Autentica",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16710,6 +16743,11 @@
   },
   "RootNamespace": "DashBoard",
   "Documents": [
+    {
+      "FilePath": "c:\\Users\\romul\\Desktop\\DashBoard\\Pages\\ListarFuncionarios.razor",
+      "TargetPath": "Pages\\ListarFuncionarios.razor",
+      "FileKind": "component"
+    },
     {
       "FilePath": "c:\\Users\\romul\\Desktop\\DashBoard\\Pages\\AdicionarUsuario.razor",
       "TargetPath": "Pages\\AdicionarUsuario.razor",

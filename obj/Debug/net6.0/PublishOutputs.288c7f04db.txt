@@ -1,0 +1,10 @@
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\DashBoard.exe
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\appsettings.Development.json
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\appsettings.json
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\DashBoard.dll
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\DashBoard.deps.json
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\DashBoard.runtimeconfig.json
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\DashBoard.pdb
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\Newtonsoft.Json.dll
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\Refit.dll
+C:\Users\romul\Desktop\DashBoard\bin\Debug\net6.0\publish\Refit.HttpClientFactory.dll

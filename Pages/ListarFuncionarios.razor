@@ -1,0 +1,59 @@
+@page "/listarfuncionarios"
+@using Data
+@using Newtonsoft.Json
+@inject HttpClient client
+
+
+<button type="button" @onclick="PegarFuncionarios" class="btn btn-link">Listar Funcionarios</button>
+
+
+<div class="col-5">
+    @if (mostrar)
+    {
+        <table class="table">
+
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Telefone</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Cpf</th>
+                    <th scope="col">Data Nascimento</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Funcionarios)
+                {
+                    <tr>
+                        <td>@item.Nome</td>
+                        <td>@item.Telefone</td>
+                        <td>@item.Email</td>
+                        <td>@item.Cpf</td>
+                        <td>@item.DataNascimento</td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+@code {
+    List<Funcionario>? Funcionarios = new List<Funcionario>();
+    private bool mostrar = false;
+    private async Task PegarFuncionarios()
+    {
+        var apiName = "http://barbertip.com.br/api/funcionarios";
+        var httpResponse = await client.GetAsync(apiName);
+        if (httpResponse.IsSuccessStatusCode)
+        {
+            var apiConteudo = await httpResponse.Content.ReadAsStringAsync();
+            //Agora é a famosa Desserialização
+            Funcionarios = JsonConvert.DeserializeObject<List<Funcionario>>(apiConteudo);
+            mostrar = true;
+            StateHasChanged();
+        }
+
+    }
+
+}
